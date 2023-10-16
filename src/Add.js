@@ -27,7 +27,7 @@ export default function Add( {addHabits, addSpending} ) {
 			
 			
 				<div className="addoptions">
-					Activity Name : <input type="text" name="activity" value={activityName}  onChange={(e) => setActivityName(e.target.value)} /> <br/>
+					Activity Name : <input type="text" name="activity" value={activityName} required onChange={(e) => setActivityName(e.target.value)} /> <br/>
 					<label for="type">Activity Type&nbsp;&nbsp;&nbsp;&nbsp;:</label>
 
 				
@@ -37,7 +37,7 @@ export default function Add( {addHabits, addSpending} ) {
 					</select>
 					
 					<br/>
-					Points   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : <input type="number" name="points" min="0" value={points}  onChange={(e) => setPoints(e.target.value)}/> <br/>
+					Points   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  : <input type="number" name="points" min="0" value={points}  required onChange={(e) => setPoints(e.target.value)}/> <br/>
 				</div>
 				
 				<div className="button1">

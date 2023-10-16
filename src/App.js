@@ -15,7 +15,16 @@ export default function HabitTracker() {
 	  }
 
 	 function spendPoints( i ) {
-		setPoints(points - i);
+		 
+		 if(points - i< 0 ){
+			 
+			 alert( "You don't have enough points");
+			 
+		 }else {
+			setPoints(points - i);
+		 }
+		
+		
 	  }
 	  
 	 function addHabits ( newHabitName, newPoints){
