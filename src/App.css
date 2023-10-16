@@ -1,6 +1,49 @@
 .App {
   text-align: center;
+  font-size:30px;
 }
+
+.habits:after{
+	clear: both;
+  content: '';
+  display: table;
+   
+ 
+}
+.add{
+	border: 5px solid green;
+	margin:auto;
+	width: max-content;
+	padding:10px;
+	
+	
+}
+
+.addoptions{
+	text-align: left;
+}
+.habits{
+	border: 5px solid black;
+	margin:auto;
+	width: max-content;
+	padding:10px;
+}
+
+
+
+.spending{
+	border: 5px solid red;
+	margin:auto;
+	width: max-content;
+	padding:10px;
+}
+
+.button1{
+	margin:auto;
+    
+}
+
+
 
 .App-logo {
   height: 40vmin;
